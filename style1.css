@@ -1,0 +1,46 @@
+.box{
+ 
+    margin-top: 100px;
+    border-radius: 50px;
+ background-color: rgba(45, 39, 39, 0.5);
+ backdrop-filter: blur(1px);
+}
+.head h1{
+    text-align: center;
+}
+.input{
+
+width: 400px;
+margin: 20px;
+border: none;
+height: 60px;
+border-radius: 30px;
+text-align: start;
+}
+.butt{
+    display: grid;
+    place-items: center;
+}
+.op{
+    /* background-color: rgba(75, 69, 69, 0.5);
+ backdrop-filter: blur(1px); */
+ margin-top: 60px;
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+.text a{
+    text-decoration: none;
+    
+
+}
+.gg{
+    background-image: url('https://images.hdqwalls.com/download/dark-flavours-59-1600x1200.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.bb{
+    border-radius: 40px;
+}

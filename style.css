@@ -1,0 +1,95 @@
+*{
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.budget{
+    background-color: antiquewhite;
+    width: 320px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 11px 12px black;
+}
+.budget {
+    display: grid;
+    place-items: center;
+}
+.amount{
+    width: 300px;
+    height:50px;
+    border-radius: 30px;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    
+
+
+    
+}
+.expense{
+    background-color: antiquewhite;
+    width: 320px;
+    height: 300px;
+    border-radius: 30px;
+    display: grid;
+    place-items: center;
+    box-shadow: 10px 11px 12px black;
+   
+
+}
+.expense  h5{
+    font-weight:bold;
+    font-size: 30px;
+}
+.tt{
+    font-weight:bold;
+    font-weight: 50px;
+}
+.box{
+    background-color: rgb(49, 49, 164);
+    height: 150px;
+    margin: 50px;
+    border-radius: 50px;
+    box-shadow: 12px 13px 14px black;
+}
+.total h5{
+    color: azure;
+}
+.kl{
+    display: grid;
+    place-items: center;
+}
+.ii h5{
+    color: azure;
+
+}
+.bal h5{
+    color:azure;
+}
+.list{
+    background-color: antiquewhite;
+   
+    border-radius: 30px;
+}
+.ee{
+    font-weight:bold;
+    font-size: 30px;
+
+}
+.kl{
+    color: azure;
+}
+
+
+li{
+    font-size: 30px;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+.gg{
+    background-image: url('https://images.hdqwalls.com/download/dark-flavours-59-1600x1200.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body class="gg">
+    <div class="jj">
+        <p id="nn"></p>
+        
+    </div>
+    <div class="main d-flex justify-content-evenly">
+        <div class="budget mt-5">
+            <h5 class="tt">Budget</h5>
+            <div class="jj">
+            <input   id="amount"  type="text" placeholder="Enter Your Amount" class="amount" >
+            </div>
+            <div class="butt ">
+                <button onclick="addamount()" class="btn btn-primary ">Add Budget</button>
+
+            </div>
+            
+          
+        </div>
+        <div class="clear">
+            <button onclick="clearall()" class="btn btn-danger ">Clear All</button>
+        </div>
+        <div class="expense mt-5">
+            <h5>Expense</h5>
+            <div class="product">
+            <input id="Pname"  type="text" placeholder="Enter Your Product Name"  class="amount" >
+            </div>
+            <div class="pp">
+                <input   id="pprice"  type="text" placeholder="Enter Your Product Price" class="amount" >
+            </div>         
+            <div class="butt ">
+                <button  onclick="add()" class="btn btn-primary ">Check Amount</button>
+
+            </div>
+          
+        </div>
+<!-- main div ends here -->
+ </div>
+
+
+ <div class="box container d-flex justify-content-evenly ">
+
+    <div class="total mt-5">
+        <h5>Total Budget</h5>
+       
+        <p class="kl" id="kl">0</p>
+    </div>
+    <div class="ii mt-5">
+        <h5>Expenses</h5>
+       
+        <p class="kl" id="ol">0</p>
+    </div>
+    <div class="bal mt-5">
+        <h5>Balance</h5>
+      
+        <p class="kl" id="po">0</p>
+    </div>
+    
+
+
+
+
+
+ </div>
+
+ <!-- exepense list -->
+
+
+ <div class="list container">
+    <div class="container-fluid">
+        <h5 class="ee">Expense List</h5>
+    </div>
+
+    <ul type="none" id="jk">
+        
+    </ul>
+   
+
+
+
+
+ </div>
+
+ 
+
+
+
+
+
+ <script src="script.js"></script>
+
+
+
+
+
+    
+</body>
+</html>
